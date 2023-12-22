@@ -11,11 +11,11 @@
 # - INSS (8%) : R$
 # - Sindicato ( 5%) : R$
 # = Salário Liquido : R$
-from módulos_estrutura_sequencial import Modulos_Úteis
+from modulos_úteis import menu
 from emoji import emojize
 
 # Versão sem módulo
-Modulos_Úteis.menu('SALÁRIO COM %DESCONTOS%')
+menu('SALÁRIO COM %DESCONTOS%')
 ganho_por_hora = float(input('Digite o valor que ganha por hora: \033[32mR$\033[m'))
 tempo_trabalhado = float(input(emojize('Agora digite o :three_o’clock:tempo:three_o’clock: trabalhado: ')))
 salario_bruto = ganho_por_hora * tempo_trabalhado

@@ -1,7 +1,7 @@
 # Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet
 # (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
-from módulos_estrutura_sequencial import Modulos_Úteis
-Modulos_Úteis.menu('TEMPO DE DOWNLOAD')
+from modulos_úteis import menu
+menu('TEMPO DE DOWNLOAD')
 
 arquivo = float(input("Informe do tamanho do arquivo em MegaByte: "))
 link = float(input("Informe a velocidade do link em Mbps: "))

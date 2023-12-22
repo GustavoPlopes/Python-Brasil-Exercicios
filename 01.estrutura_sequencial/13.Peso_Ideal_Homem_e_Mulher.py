@@ -1,8 +1,8 @@
 # endo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando
 # as seguintes fórmulas: Para homens: (72.7*h) - 58, Para mulheres: (62.1*h) - 44.7
-from módulos_estrutura_sequencial import Modulos_Úteis
+from modulos_úteis import menu
 
-Modulos_Úteis.menu('PESO IDEAL \033[1;34mHOMEM\033[m & \033[1;35mMULHER\033[m')
+menu('PESO IDEAL \033[1;34mHOMEM\033[m & \033[1;35mMULHER\033[m')
 while True:
     sexo = str(input('Qual seu sexo? [\033[1;34mM\033[m/\033[1;35mF\033[m]? ')).strip().upper()
     if sexo not in 'MF':

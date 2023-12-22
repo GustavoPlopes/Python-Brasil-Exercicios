@@ -6,14 +6,14 @@
 # comprar apenas galões de 3,6 litros;
 # misturar latas e galões, de forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde os
 # valores para cima, isto é, considere latas cheias.
-from módulos_estrutura_sequencial import Modulos_Úteis
+from modulos_úteis import menu
 
 litros = 0
 latas_18l = 0
 galoes = 0
 valor_latas = 0
 valor_galoes = 0
-Modulos_Úteis.menu('LOJA DE TINTAS')
+menu('LOJA DE TINTAS')
 metros_quadrados = float(input('\033[1;34mDigite o tamanho o tamanho da área em metros quadrados:\033[m '))
 print(f'{"-"*60}')
 

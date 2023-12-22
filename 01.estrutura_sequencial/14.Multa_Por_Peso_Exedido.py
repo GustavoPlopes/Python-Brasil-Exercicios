@@ -3,10 +3,10 @@
 # (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a
 # variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite
 # e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
-from módulos_estrutura_sequencial import Modulos_Úteis
+from modulos_úteis import menu
 
 multa = 4.0
-Modulos_Úteis.menu('CALCULO DE MULTA DE PESCA')
+menu('CALCULO DE MULTA DE PESCA')
 peso_pesca = float(input('Digite quantos quilos de peixe(s) pescado: '))
 
 if peso_pesca > 50:

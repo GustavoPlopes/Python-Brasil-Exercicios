@@ -1,9 +1,9 @@
 # Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
 # Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18
 # litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
-from módulos_estrutura_sequencial import Modulos_Úteis
+from modulos_úteis import menu
 
-Modulos_Úteis.menu('LOJA DE TINTAS')
+menu('LOJA DE TINTAS')
 
 litros = 0
 litros_totais = 0
